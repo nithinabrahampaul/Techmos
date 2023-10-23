@@ -469,6 +469,7 @@ ul.email li i {
      transition: ease-in all 0.5s;
      padding: 40px;
      margin-bottom: 26px;
+     height:370px
 }
 
 .we_box h3 {
@@ -541,10 +542,11 @@ ul.email li i {
 /** about **/
 
 .about {
-     background: url(../images/about_bg.jpg);
+     background: url(../images/about-bg.png);
      background-position: center;
      background-repeat: no-repeat;
-     height: 100vh;
+     height: 60vh;
+     background-color: #323232;
      padding: 90px 0;
 }
 
@@ -555,6 +557,7 @@ ul.email li i {
 .about .titlepage {
      padding-bottom: 0;
      margin-bottom: 0px;
+     background-color: #32323261;
 }
 
 .about .titlepage h2 {
@@ -565,7 +568,7 @@ ul.email li i {
      line-height: 28px;
      padding-top: 20px;
      color: #fff;
-     font-size: 17px;
+     font-size: 20px;
 }
 
 
@@ -615,15 +618,18 @@ ul.email li i {
      margin-top: -65px;
      transition: ease-in all 0.7s;
 }
-.single_contact_now:first-child .single_contact_now_inner {
-     border: none;
- }
 
  .single_contact_now_inner {
-     border-top: 2px solid rgba(3,101,175,.2);
      padding: 15px 20px;
      transition: .5s;
  }
+
+ .single_contact_now_content h4{
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+
 .portfolio_text {
      cursor: pointer;
      position: absolute;
