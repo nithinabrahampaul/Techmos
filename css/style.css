@@ -469,7 +469,7 @@ ul.email li i {
      transition: ease-in all 0.5s;
      padding: 40px;
      margin-bottom: 26px;
-     height:370px
+     height:100%
 }
 
 .we_box h3 {
@@ -545,7 +545,6 @@ ul.email li i {
      background: url(../images/about-bg.png);
      background-position: center;
      background-repeat: no-repeat;
-     height: 60vh;
      background-color: #323232;
      padding: 90px 0;
 }
