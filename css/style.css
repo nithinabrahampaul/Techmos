@@ -161,6 +161,11 @@ img {
      padding: 0;
 }
 
+.logo img{
+     width: 120px;
+     height: 80px;
+}
+
 .form-control:focus {
      border-color: #ffffff !important;
      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
@@ -300,7 +305,7 @@ header
      width: 100%;
      background: rgba(39, 43, 44, 0.87);
      height: 106px;
-     padding: 37px 30px;
+     padding: 5px 5px;
      position: absolute;
      z-index: 999;
      box-shadow: 3px 0 13px rgba(30, 30, 30, 0.90);
